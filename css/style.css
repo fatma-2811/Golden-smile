@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.navbar {
+    position: fixed;
+    padding: 5px 30px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background-color: white;
+    direction: rtl;
+}
+
+.navbar .container img {
+
+    width: 130px;
+    padding: 0 30px;
+    border-radius: 50%;
+
+
+
+}
+
+
+.navbar ul li {
+    padding: 10px 30px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.navbar ul li a:hover {
+    color: #2e2e2d;
+}
+
+@media (max-width: 1109.38px) {
+    .navbar ul li {
+        padding: 10px 10px;
+    }
+
+}
+
+
+#first {
+    background-color: #BCA548;
+}
+
+#first h1 {
+    margin-top: 170px;
+    font-weight: bold;
+    padding-top: 30px;
+    color: white;
+}
+
+#first h1 span {
+    color: black;
+}
+
+@media (max-width: 1059.11px) {
+    #first video {
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 768.43px) {
+    #first {
+        text-align: center;
+
+    }
+
+    #first h1 {
+        margin-top: 150px;
+
+
+    }
+
+    #first video {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 585.89px) {
+    #first video {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+
+
+#seconde {
+    padding-top: 180px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+#seconde img {
+    width: 200px;
+}
+
+#seconde h5 {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #BCA548;
+}
+
+#seconde p {
+    padding-top: 10px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 400;
+
+
+
+}
+
+@media (max-width: 1059.11px) {
+    #seconde img {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768.43px) {
+    #seconde img {
+        margin-bottom: 20px;
+    }
+}
+
+#three {
+    margin-top: 200px;
+    padding-top: 50px;
+    background-color: #F6F2F2;
+    text-align: center;
+    cursor: pointer;
+}
+
+#three img {
+    width: 300px;
+    padding-top: 30px;
+}
+
+#three h2 {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+}
+
+#three ul {
+    direction: rtl;
+    text-align: right;
+
+}
+
+#three ul li {
+    padding: 7px 0;
+    font-size: 20px;
+}
+
+@media (max-width: 1029.38px) {
+    #three ul {
+        padding-right: 10px;
+
+    }
+}
+
+#four {
+    margin-top: 200px;
+    background-color: #F3F2F4;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+#four h3 {
+    font-size: 40px;
+    font-weight: bold;
+
+    text-shadow: 2px 2px 2px #BCA548;
+}
+
+#four img {
+    width: 200px;
+    border-radius: 50%;
+    border: double 3px #0A8F01;
+}
+
+#four h4 {
+    padding-top: 14px;
+    font-size: 30px;
+}
+
+@media (max-width: 768.43px) {
+    #four h4 {
+        padding-bottom: 20px;
+    }
+
+}
+
+#five {
+
+    border-radius: 1.5px;
+    border-style: solid;
+    border-color: #0A8F01;
+    background-color: #f0f4f0;
+    margin: 200px 260px;
+    text-align: center;
+}
+
+#five h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+#five form {
+    direction: rtl;
+    text-align: right;
+
+}
+
+#five form label {
+    color: black;
+    padding: 0 13px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 22px;
+}
+
+#five form input {
+    padding: 5px 0;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    border-style: solid;
+
+}
+
+#five form .selectt label {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+#five form .selectt select {
+    padding: 3px 5px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+#five form .three textarea {
+
+    direction: ltr;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    border-style: solid;
+
+    font-size: 27px;
+    margin-bottom: 30px;
+
+}
+
+
+#five form button {
+    padding: 15px;
+    background-color: #0A8F01;
+    color: white;
+    font-size: 15px;
+    border-radius: 17px;
+    border-color: #0A8F01;
+    border-style: solid;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+
+#five form button:hover {
+    margin-top: -10px;
+    background-color: black;
+    color: #F3F2F4;
+    border-color: black;
+
+
+}
+
+@media (max-width: 1109.38px) {
+    #five {
+        margin: 200px 200px;
+    }
+
+    #five form label {
+
+        padding: 0 12px;
+        font-size: 18px;
+        margin-bottom: 19px;
+
+    }
+
+    #five form input {
+        padding: 3px 0;
+        font-size: 17px;
+
+
+    }
+
+    #five form .selectt label {
+        font-size: 18px;
+
+
+    }
+
+    #five form .selectt select {
+        padding: 4px 7px;
+
+        font-size: 12px;
+
+    }
+
+    #five form .three textarea {
+
+        font-size: 26px;
+        padding-right: 20px;
+
+    }
+
+    #five form button {
+        padding: 15px;
+        font-size: 14px;
+
+
+    }
+}
+
+
+@media (max-width: 1103.01px) {
+    #five form label {
+
+
+        font-size: 18px;
+        margin-bottom: 19px;
+
+    }
+
+    #five form input {
+        padding: 3px 0;
+        font-size: 13px;
+
+
+    }
+
+    #five form .selectt label {
+        font-size: 16px;
+
+
+    }
+
+    #five form .selectt select {
+        padding: 2px 4px;
+
+        font-size: 12px;
+
+    }
+
+    #five form .three textarea {
+
+        font-size: 23px;
+        padding-right: 20px;
+        border-radius: 20px;
+      
+    }
+
+    #five form button {
+        padding: 12px;
+        font-size: 13px;
+        border-radius: 15px;
+
+    }
+}
+
+@media (max-width: 1035.43px) {
+    #five {
+        margin: 200px 150px;
+    }
+
+}
+
+@media (max-width: 933.43px) {
+    #five {
+        margin: 200px 130px;
+    }
+}
+
+@media (max-width: 898.43px) {
+    #five {
+        margin: 200px 100px;
+    }
+}
+
+@media (max-width: 833.43px) {
+    #five {
+        margin: 200px 90px;
+    }
+}
+
+@media (max-width: 816.43px) {
+    #five {
+        margin: 200px 70px;
+    }
+}
+
+@media (max-width: 816.43px) {
+    #five {
+        margin: 200px 60px;
+    }
+}
+
+@media (max-width: 768.43px) {
+    #five {
+        margin: 200px 50px;
+    }
+
+    #five form label {
+        padding: 0;
+        padding-right: 6px;
+        font-size: 15px;
+        padding-bottom: 13px;
+    }
+
+    #five form input {
+        padding: 2px 0;
+        font-size: 11px;
+    }
+    
+    #five form .selectt select {
+        padding: 3px 2px;
+        font-size: 10px;
+
+    }
+     #five form .three textarea {
+
+        font-size: 16px;
+        padding-right: 10px;
+      
+       
+    }
+}
+@media (max-width: 636.43px) {
+      #five {
+        margin: 200px 20px;
+    }
+    #five form label {
+    
+        padding-right: 3px;
+        font-size: 13px;
+        padding-bottom: 0;
+    }
+      #five form input {
+        padding: 2px 0;
+        
+    }
+       #five form .three textarea {
+
+        font-size: 12px;
+        padding-right: 5px;
+      
+       
+    }
+}
+
+#six {
+    background-color: #D6D6D6;
+    margin-top: 80px;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    direction: rtl;
+
+}
+
+#six h2 {
+    font-size: 40px;
+    text-shadow: 3px 3px 3px #BCA548;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#six img {
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+#six h3 {
+    color: #0A8F01;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#six h6 {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 50px;
+
+}
+
+footer {
+    background-color: #BCA548;
+    padding: 25px 15px;
+
+    text-align: center;
+}
+
+footer h5 {
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+
+}
