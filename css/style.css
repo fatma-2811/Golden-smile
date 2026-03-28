@@ -89,6 +89,8 @@ body {
     #first video {
         padding: 0;
         margin: 0;
+         width: 400px;
+        height: 300px;
     }
 }
 
