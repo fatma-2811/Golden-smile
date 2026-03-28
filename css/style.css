@@ -47,7 +47,7 @@ body {
 
 @media (max-width: 1109.38px) {
     .navbar ul li {
-        padding: 10px 15px;
+        padding: 10px 10px;
     }
 
 }
@@ -89,7 +89,7 @@ body {
     #first video {
         padding: 0;
         margin: 0;
-         width: 400px;
+        width: 400px;
         height: 300px;
     }
 }
@@ -249,7 +249,7 @@ body {
     padding: 5px 0;
     text-align: center;
     font-size: 16px;
-    border-radius: 20px;
+    border-radius: 15px;
     border-style: solid;
 
 }
@@ -469,12 +469,17 @@ body {
 }
 @media (max-width: 636.43px) {
       #five {
-        margin: 200px 20px;
+        margin: 200px 40px;
+    }
+}
+@media (max-width: 636.43px) {
+  #five {
+        margin: 200px 30px;
     }
     #five form label {
     
-        padding-right: 3px;
-        font-size: 13px;
+        padding-right: 0;
+        font-size: 15px;
         padding-bottom: 0;
     }
       #five form input {
@@ -483,12 +488,48 @@ body {
     }
        #five form .three textarea {
 
-        font-size: 12px;
+        font-size: 16px;
         padding-right: 5px;
       
        
     }
+     #five form .selectt label {
+        font-size: 15px;
+
+
+    }
 }
+@media (max-width: 588.32px) {
+     #five form input,
+#five form select,
+#five form textarea {
+  width: 100%;       /* يخلي العناصر تاخد عرض الشاشة */
+  box-sizing: border-box; /* يمنع تجاوز الحدود */
+  margin-bottom: 15px;    /* مسافة بين العناصر */
+    font-size: 14px;   /* حجم خط مناسب للجوال */
+    padding: 8px;      /* مسافة داخلية مريحة */
+  
+}
+  #five form button {
+    width: 100%;       /* يخلي الزر بعرض الشاشة */
+    font-size: 14px;
+  }
+}
+
+
+/* @media (max-width: 459.32px) {
+#five form .selectt select{
+    padding: 1px 2px;
+}
+   #five form .yy {
+        padding: 0;
+        
+
+        
+    }
+} */
+
+
 
 #six {
     background-color: #D6D6D6;
